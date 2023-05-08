@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <cross_sections>/home/oritai/libraries/ENDF/endfb-viii.0-hdf5/cross_sections.xml</cross_sections>
+  <material depletable="true" id="1" name="uo2">
+    <density units="g/cm3" value="10.0" />
+    <nuclide ao="0.03" name="U235" />
+    <nuclide ao="0.97" name="U238" />
+    <nuclide ao="2.0" name="O16" />
+  </material>
+  <material id="28" name="zirconium">
+    <density units="g/cm3" value="6.6" />
+    <nuclide ao="0.1715" name="Zr92" />
+    <nuclide ao="0.1122" name="Zr91" />
+    <nuclide ao="0.5145" name="Zr90" />
+    <nuclide ao="0.028" name="Zr96" />
+    <nuclide ao="0.1738" name="Zr94" />
+  </material>
+  <material id="29" name="h2o">
+    <density units="g/cm3" value="1.0" />
+    <nuclide ao="2.0" name="H1" />
+    <nuclide ao="1.0" name="O16" />
+    <sab name="c_H_in_H2O" />
+  </material>
+</materials>
